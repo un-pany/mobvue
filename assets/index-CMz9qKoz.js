@@ -1,0 +1,1 @@
+import{_ as e}from"./index-BLYWvPy9.js";import{g as o,o as c}from"./vue-YxkROS_2.js";const t={},n={class:"app-container"};function r(s,a){return c(),o("div",n," 首页 ")}const f=e(t,[["render",r]]);export{f as default};
