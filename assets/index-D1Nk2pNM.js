@@ -1,0 +1,1 @@
+import{A as r,x as s}from"./vue-BFYFvDGA.js";const _=(t,e)=>{const c=t.__vccOpts||t;for(const[n,o]of e)c[n]=o;return c},a={},f={"un-p-20px":""};function p(t,e){return s(),r("div",f," 待开发... ")}const i=_(a,[["render",p]]);export{i as default};
