@@ -4,7 +4,7 @@
   position: relative;
   top: 45vh;
   margin: 0 auto;
-  color: #1989fa;
+  color: var(--mobvue-primary-color);
   font-size: 12px;
 }
 
