@@ -1,1 +1,0 @@
-import{_ as t}from"./NoticeBar.vue_vue_type_script_setup_true_lang-DGnEhF5P.js";import{q as o,A as r,m as s,H as a,x as n}from"./vue-BFYFvDGA.js";import"./index-DvrZA5zZ.js";const d=o({__name:"permission",setup(m){return(p,e)=>(n(),r("div",null,[s(t,{text:"基于权限指令、权限函数实现的按钮级控制"}),e[0]||(e[0]=a("div",{"un-m-20px":""}," 待开发... ",-1))]))}});export{d as default};
