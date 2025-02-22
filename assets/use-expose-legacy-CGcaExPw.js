@@ -1,1 +1,0 @@
-System.register(["./index-legacy-CN_lm6BZ.js","./vue-legacy-DezzmnhY.js"],(function(e,t){"use strict";var n,s;return{setters:[e=>{n=e.i},e=>{s=e.k}],execute:function(){e("u",(function(e){const t=s();t&&n(t.proxy,e)}))}}}));
