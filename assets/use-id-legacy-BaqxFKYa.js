@@ -1,0 +1,1 @@
+System.register(["./vue-legacy-DezzmnhY.js"],(function(e,t){"use strict";var n;return{setters:[e=>{n=e.k}],execute:function(){e("u",(function(){const e=n(),{name:u="unknown"}=(null==e?void 0:e.type)||{};return`${u}-${++t}`}));let t=0}}}));
