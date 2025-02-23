@@ -96,6 +96,20 @@ export const demoRoutes: RouteRecordRaw[] = [
         }
       }
     }
+  },
+  {
+    path: "/i18n",
+    component: () => import("@/pages/demo/i18nDemo.vue"),
+    name: "I18nDemo",
+    meta: {
+      title: "i18n语言切换",
+      layout: {
+        navBar: {
+          showNavBar: true,
+          showLeftArrow: true
+        }
+      }
+    }
   }
 ]
 
