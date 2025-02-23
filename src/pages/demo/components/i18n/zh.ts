@@ -1,13 +1,18 @@
 export default {
   home: {
-    title: "移动应用",
-    description: "这是一个支持国际化的移动应用",
-    language: "语言",
-    form: {
-      username: "用户名",
-      password: "密码",
-      submit: "提交",
-      reset: "重置"
+    welcome: "欢迎使用我们的应用",
+    description: "体验下一代移动应用",
+    features: {
+      title: "核心特点",
+      list: {
+        performance: "高性能",
+        security: "安全增强",
+        responsive: "响应式设计"
+      }
+    },
+    cta: {
+      start: "立即开始",
+      learnMore: "了解更多"
     }
   }
 }

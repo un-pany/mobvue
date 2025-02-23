@@ -1,13 +1,18 @@
 export default {
   home: {
-    title: "Mobile App",
-    description: "This is a mobile app with i18n support",
-    language: "Language",
-    form: {
-      username: "Username",
-      password: "Password",
-      submit: "Submit",
-      reset: "Reset"
+    welcome: "Welcome to Our App",
+    description: "Experience the next generation of mobile applications",
+    features: {
+      title: "Key Features",
+      list: {
+        performance: "High Performance",
+        security: "Enhanced Security",
+        responsive: "Responsive Design"
+      }
+    },
+    cta: {
+      start: "Get Started",
+      learnMore: "Learn More"
     }
   }
 }
