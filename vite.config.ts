@@ -125,9 +125,11 @@ export default defineConfig(({ mode }) => {
       }),
       VitePWA({
         registerType: "autoUpdate",
+        includeAssets: ["favicon.png"],
         manifest: {
           name: "MOBVUE",
           short_name: "MOBVUE",
+          description: "A crafted mobile template / vue mobile / vue h5 / vue vant / vue web app",
           theme_color: "#1989fa",
           icons: [
             {
@@ -139,6 +141,12 @@ export default defineConfig(({ mode }) => {
               src: "pwa-512x512.png",
               sizes: "512x512",
               type: "image/png"
+            },
+            {
+              src: "pwa-512x512.png",
+              sizes: "512x512",
+              type: "image/png",
+              purpose: ["any", "maskable"]
             }
           ]
         },
