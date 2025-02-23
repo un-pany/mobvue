@@ -1,5 +1,5 @@
 import presetRemToPx from "@unocss/preset-rem-to-px"
-import { defineConfig, presetAttributify, presetUno } from "unocss"
+import { defineConfig, presetAttributify, presetWind3 } from "unocss"
 
 export default defineConfig({
   // 预设
@@ -10,7 +10,7 @@ export default defineConfig({
       prefixedOnly: true
     }),
     // 默认预设
-    presetUno({
+    presetWind3({
       important: "#app"
     }),
     // 将 unocss 默认采用的 rem 单位转为 px 单位
@@ -19,7 +19,8 @@ export default defineConfig({
   // 自定义主题
   theme: {
     colors: {
-      primary: "var(--mobvue-primary-color)"
+      primary: "var(--mobvue-primary-color)",
+      bg: "var(--mobvue-bg-color)"
     }
   },
   // 自定义规则

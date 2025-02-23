@@ -3,6 +3,7 @@
 // core
 import { pinia } from "@/pinia"
 import { router } from "@/router"
+import { installPlugins } from "@/plugins"
 import App from "@/App.vue"
 // vant
 import "@vant/touch-emulator"
@@ -15,6 +16,9 @@ import i18n from "@/pages/demo/components/i18n/index.ts"
 
 // 创建应用实例
 const app = createApp(App)
+
+// 安装插件（全局组件、自定义指令等）
+installPlugins(app)
 
 // 安装 pinia 和 router
 app.use(pinia).use(router).use(i18n)

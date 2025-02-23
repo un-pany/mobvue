@@ -9,6 +9,11 @@ declare module "vue-router" {
      */
     title?: string
     /**
+     * @description 设置能进入该路由的角色，支持多个角色叠加，默认不限制角色
+     * @default undefined
+     */
+    roles?: string[]
+    /**
      * @description 是否缓存该路由页面，注意路由和页面都需要设置一致的 Name
      * @default false
      */
@@ -43,6 +48,11 @@ declare module "vue-router" {
          */
         icon?: string
       }
+      /**
+       * @description 是否显示 Footer
+       * @default false
+       */
+      footer?: boolean
     }
   }
 }

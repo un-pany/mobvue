@@ -10,7 +10,7 @@ const { setWatermark: setGlobalWatermark, clearWatermark: clearGlobalWatermark }
 </script>
 
 <template>
-  <div>
+  <div un-mb-20px>
     <NoticeBar text="支持局部、全局、自定义样式，并自带防御和自适应功能" />
     <div
       ref="localRef"

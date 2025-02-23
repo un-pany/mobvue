@@ -1,8 +1,20 @@
 /* 全局 CSS 变量 */
 @import url("./variables.css");
+/* View Transition */
+@import url("./view-transition.css");
 
 html {
   height: 100%;
+}
+
+/* 灰色模式 */
+html.grayscale-mode {
+  filter: grayscale(1);
+}
+
+/* 色弱模式 */
+html.colorblind-mode {
+  filter: invert(0.8);
 }
 
 body {
@@ -11,20 +23,7 @@ body {
   background-color: var(--mobvue-body-bg-color);
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family:
-    Open Sans,
-    -apple-system,
-    BlinkMacSystemFont,
-    Helvetica Neue,
-    Helvetica,
-    Segoe UI,
-    Arial,
-    Roboto,
-    PingFang SC,
-    miui,
-    Hiragino Sans GB,
-    Microsoft Yahei,
-    sans-serif;
+  font-family: var(--van-base-font);
   /* 禁止 iOS 和 macOS 系统默认的橡皮筋效果 */
   overflow: hidden;
 }
