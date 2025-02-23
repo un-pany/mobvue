@@ -1,5 +1,7 @@
 /* eslint-disable perfectionist/sort-imports */
 
+// pwa
+import { registerSW } from "virtual:pwa-register"
 // core
 import { pinia } from "@/pinia"
 import { router } from "@/router"
@@ -12,6 +14,9 @@ import "normalize.css"
 import "nprogress/nprogress.css"
 import "@@/assets/styles/index.css"
 import "virtual:uno.css"
+
+// 自动安装新的 Service Worker，更新缓存并刷新页面
+registerSW({ immediate: true })
 
 // 创建应用实例
 const app = createApp(App)
