@@ -1,0 +1,1 @@
+import"./index-Bd3nhUJ2.js";import{E as t}from"./index-RK1kvNab.js";import{_ as r}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{C as c,z as e}from"./vue-BUcO0Ml9.js";import"./use-id-CMwqAVRY.js";const n={};function m(p,s){const o=t;return e(),c(o,{description:"作者正在努力，点个 Star 为作者加速！"})}const l=r(n,[["render",m]]);export{l as default};
