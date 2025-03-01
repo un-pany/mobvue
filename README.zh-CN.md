@@ -125,6 +125,8 @@ pnpm test
 
 **文档教程**：[链接](https://juejin.cn/column/7472609448201666599)
 
+**后台管理系统**：[v3-admin-vite](https://github.com/un-pany/v3-admin-vite)
+
 **国内仓库**：[gitee](https://gitee.com/un-pany/mobvue)
 
 **交流群**：[查看进群方式](https://github.com/un-pany/mobvue/issues/3)
@@ -165,7 +167,7 @@ pnpm test
 
 **Vant**：轻量、可定制的移动端 Vue 组件库
 
-**Pinia**: 传说中的 Vuex5
+**Pinia**：传说中的 Vuex5
 
 **Vite**：真的很快
 

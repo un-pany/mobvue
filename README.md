@@ -121,17 +121,19 @@ pnpm test
 
 ## Links
 
-**Online Preview**：[github-pages](https://un-pany.github.io/mobvue)
+**Online Preview**: [github-pages](https://un-pany.github.io/mobvue)
 
-**Documentation and Tutorials**：[link](https://juejin.cn/column/7472609448201666599)
+**Documentation and Tutorials**: [link](https://juejin.cn/column/7472609448201666599)
 
-**Chinese Repository**：[gitee](https://gitee.com/un-pany/mobvue)
+**Backend Management System**: [v3-admin-vite](https://github.com/un-pany/v3-admin-vite)
 
-**Chat Group**：[check how to join](https://github.com/un-pany/mobvue/issues/3)
+**Chinese Repository**: [gitee](https://gitee.com/un-pany/mobvue)
 
-**Donations**：[buy a coffee for the author](https://github.com/un-pany/mobvue/issues/1)
+**Chat Group**: [check how to join](https://github.com/un-pany/mobvue/issues/3)
 
-**Releases & Changelog**：[releases](https://github.com/un-pany/mobvue/releases)
+**Donations**: [buy a coffee for the author](https://github.com/un-pany/mobvue/issues/1)
+
+**Releases & Changelog**: [releases](https://github.com/un-pany/mobvue/releases)
 
 ## Features
 
@@ -163,23 +165,23 @@ pnpm test
 
 **Vue3**: Vue3 + script setup with the latest Vue3 Composition API
 
-**Vant**：A lightweight, customizable Vue UI library for mobile web apps
+**Vant**: A lightweight, customizable Vue UI library for mobile web apps
 
 **Pinia**: The legendary Vuex5
 
 **Vite**: Really fast
 
-**Vue Router**：The routing system
+**Vue Router**: The routing system
 
-**TypeScript**：A superset of JavaScript
+**TypeScript**: A superset of JavaScript
 
-**pnpm**：A faster, disk-space-saving package manager
+**pnpm**: A faster, disk-space-saving package manager
 
-**ESlint**：Code linting and formatting
+**ESlint**: Code linting and formatting
 
-**Axios**：Sends network requests
+**Axios**: Sends network requests
 
-**UnoCSS**：A high-performance, flexible atomic CSS engine
+**UnoCSS**: A high-performance, flexible atomic CSS engine
 
 ## Project Preview Image
 
