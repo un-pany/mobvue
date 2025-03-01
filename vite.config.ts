@@ -123,14 +123,14 @@ export default defineConfig(({ mode }) => {
         dts: "types/auto/components.d.ts",
         resolvers: [VantResolver()]
       }),
+      // PWA
       VitePWA({
-        registerType: "autoUpdate",
-        includeAssets: ["favicon.png"],
+        includeAssets: ["favicon.png", "apple-touch-icon.png"],
         manifest: {
-          name: "MOBVUE",
-          short_name: "MOBVUE",
-          description: "A crafted mobile template / vue mobile / vue h5 / vue vant / vue web app",
-          theme_color: "#1989fa",
+          name: "MobVue",
+          short_name: "MobVue",
+          description: "A crafted mobile template",
+          theme_color: "#ffffff",
           icons: [
             {
               src: "pwa-192x192.png",
@@ -149,10 +149,6 @@ export default defineConfig(({ mode }) => {
               purpose: ["any", "maskable"]
             }
           ]
-        },
-        devOptions: {
-          enabled: true,
-          type: "module"
         }
       })
     ],

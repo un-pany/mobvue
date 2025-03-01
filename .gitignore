@@ -1,6 +1,5 @@
 # Common
 dist
-dev-dist
 node_modules
 .eslintcache
 vite.config.*.timestamp*
