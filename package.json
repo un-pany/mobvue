@@ -26,6 +26,7 @@
     "vant": "4.9.17",
     "vconsole": "3.15.1",
     "vue": "3.5.13",
+    "vue-i18n": "11.1.1",
     "vue-router": "4.5.0"
   },
   "devDependencies": {
