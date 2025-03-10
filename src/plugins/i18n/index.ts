@@ -1,3 +1,4 @@
+import type { App } from "vue"
 import { createI18n } from "vue-i18n"
 import en from "./en"
 import zh from "./zh"
@@ -18,4 +19,6 @@ const i18n = createI18n({
   fallbackWarn: false // 关闭回退警告
 })
 
-export default i18n
+export function installI18n(app: App) {
+  app.use(i18n)
+}

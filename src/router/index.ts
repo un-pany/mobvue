@@ -143,17 +143,13 @@ export const demoRoutes: RouteRecordRaw[] = [
         }
       }
     }
-  }
-]
-
-/** 空示例页面 */
-export const emptyDemoRoutes: RouteRecordRaw[] = [
+  },
   {
     path: "/i18n",
     component: () => import("@/pages/demo/i18n.vue"),
     name: "I18n",
     meta: {
-      title: "国际化 / 多语言",
+      title: "国际化 / i18n",
       layout: {
         navBar: {
           showNavBar: true,
@@ -161,7 +157,11 @@ export const emptyDemoRoutes: RouteRecordRaw[] = [
         }
       }
     }
-  },
+  }
+]
+
+/** 空示例页面 */
+export const emptyDemoRoutes: RouteRecordRaw[] = [
   {
     path: "/markdown",
     component: () => import("@/pages/demo/markdown.vue"),

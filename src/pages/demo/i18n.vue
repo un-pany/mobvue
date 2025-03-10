@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useI18n } from "vue-i18n"
-import LanguageSwitcher from "./components/i18n/LanguageSwitcher.vue"
+import LanguageSwitcher from "./components/LanguageSwitcher.vue"
 
 const { t } = useI18n({
   useScope: "global"
