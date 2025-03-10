@@ -125,6 +125,8 @@ pnpm test
 
 **文档教程**：[链接](https://juejin.cn/column/7472609448201666599)
 
+**后台管理系统**：[v3-admin-vite](https://github.com/un-pany/v3-admin-vite)
+
 **国内仓库**：[gitee](https://gitee.com/un-pany/mobvue)
 
 **交流群**：[查看进群方式](https://github.com/un-pany/mobvue/issues/3)
@@ -151,6 +153,8 @@ pnpm test
 
 🫧 [拥抱原子化 CSS](./uno.config.ts)
 
+📲 [PWA](https://github.com/antfu/vite-plugin-pwa) - 渐进式 Web 应用
+
 🔧 [组件](https://github.com/unplugin/unplugin-vue-components) 和 [API](https://github.com/unplugin/unplugin-auto-import) 自动按需导入
 
 🔎 [Husky](./.husky/pre-commit) + [lint-staged](./package.json) + [ESLint](./eslint.config.js) - 规范代码
@@ -165,7 +169,7 @@ pnpm test
 
 **Vant**：轻量、可定制的移动端 Vue 组件库
 
-**Pinia**: 传说中的 Vuex5
+**Pinia**：传说中的 Vuex5
 
 **Vite**：真的很快
 
@@ -175,7 +179,7 @@ pnpm test
 
 **pnpm**：更快速的，节省磁盘空间的包管理工具
 
-**ESlint**：代码校验与格式化
+**ESLint**：代码校验与格式化
 
 **Axios**：发送网络请求（已封装好）
 
