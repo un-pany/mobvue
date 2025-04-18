@@ -1,7 +1,7 @@
 {
   "name": "mobvue",
   "type": "module",
-  "version": "0.8.5",
+  "version": "0.8.8",
   "description": "A crafted mobile template, built with Vue3, Vite, TypeScript, Vant, and more",
   "author": "pany <939630029@qq.com> (https://github.com/pany-ang)",
   "repository": "https://github.com/un-pany/mobvue",
