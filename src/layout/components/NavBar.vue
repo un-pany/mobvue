@@ -1,12 +1,17 @@
 <script setup lang="ts">
 const route = useRoute()
 
+const router = useRouter()
+
 const title = computed(() => route.meta.title)
 
 const showLeftArrow = computed(() => route.meta.layout?.navBar?.showLeftArrow)
 
 function onClickLeft() {
-  history.back()
+  if (window.history.state?.back)
+    history.back()
+  else
+    router.replace("/")
 }
 </script>
 
