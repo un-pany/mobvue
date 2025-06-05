@@ -1,10 +1,10 @@
 import type { Router } from "vue-router"
-import { useKeepAliveStore } from "@/pinia/stores/keep-alive"
-import { useUserStore } from "@/pinia/stores/user"
-import { isWhiteList } from "@/router/whitelist"
 import { useTitle } from "@@/composables/useTitle"
 import { getToken } from "@@/utils/cache/cookies"
 import NProgress from "nprogress"
+import { useKeepAliveStore } from "@/pinia/stores/keep-alive"
+import { useUserStore } from "@/pinia/stores/user"
+import { isWhiteList } from "@/router/whitelist"
 
 NProgress.configure({ showSpinner: false })
 

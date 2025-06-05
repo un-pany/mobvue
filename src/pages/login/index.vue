@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { LoginRequestData } from "./apis/type"
-import { useUserStore } from "@/pinia/stores/user"
 import Description from "@@/components/Description.vue"
+import { useUserStore } from "@/pinia/stores/user"
 import { loginApi } from "./apis"
 
 const router = useRouter()

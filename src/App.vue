@@ -1,7 +1,7 @@
 <script setup lang="ts">
+import { useDark } from "@@/composables/useDark"
 import Layout from "@/layout/index.vue"
 import { useUserStore } from "@/pinia/stores/user"
-import { useDark } from "@@/composables/useDark"
 
 const userStore = useUserStore()
 

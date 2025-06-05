@@ -1,6 +1,6 @@
 import type { RouteLocationNormalizedGeneric } from "vue-router"
-import { pinia } from "@/pinia"
 import { isString } from "@@/utils/validate"
+import { pinia } from "@/pinia"
 
 export const useKeepAliveStore = defineStore("keep-alive", () => {
   const cachedRoutes = ref<string[]>([])

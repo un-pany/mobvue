@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useUserStore } from "@/pinia/stores/user"
 import { checkPermission } from "@@/utils/permission"
+import { useUserStore } from "@/pinia/stores/user"
 import NoticeBar from "./components/NoticeBar.vue"
 
 const userStore = useUserStore()

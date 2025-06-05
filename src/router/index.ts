@@ -1,6 +1,6 @@
 import type { RouteRecordRaw } from "vue-router"
-import { registerNavigationGuard } from "@/router/guard"
 import { createRouter, createWebHashHistory, createWebHistory } from "vue-router"
+import { registerNavigationGuard } from "@/router/guard"
 
 const VITE_PUBLIC_PATH = import.meta.env.VITE_PUBLIC_PATH
 

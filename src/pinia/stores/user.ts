@@ -1,6 +1,6 @@
-import { pinia } from "@/pinia"
 import { getCurrentUserApi } from "@@/apis/users"
 import { setToken as _setToken, getToken, removeToken } from "@@/utils/cache/cookies"
+import { pinia } from "@/pinia"
 
 export const useUserStore = defineStore("user", () => {
   const token = ref<string>(getToken() || "")

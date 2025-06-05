@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { demoRoutes, emptyDemoRoutes, systemRoutes } from "@/router"
 import Description from "@@/components/Description.vue"
+import { demoRoutes, emptyDemoRoutes, systemRoutes } from "@/router"
 import Cell from "./components/Cell.vue"
 import Title from "./components/Title.vue"
 </script>

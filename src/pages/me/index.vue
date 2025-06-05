@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useUserStore } from "@/pinia/stores/user"
 import { useDark } from "@@/composables/useDark"
+import { useUserStore } from "@/pinia/stores/user"
 import faviconUrl from "/favicon.png?url"
 
 const router = useRouter()
