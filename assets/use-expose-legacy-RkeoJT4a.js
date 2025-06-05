@@ -1,1 +1,0 @@
-System.register(["./index-legacy-Bhza4fuu.js","./vue-legacy-DWQ4Ft19.js"],(function(e,t){"use strict";var n,s;return{setters:[e=>{n=e.y},e=>{s=e.j}],execute:function(){e("u",(function(e){const t=s();t&&n(t.proxy,e)}))}}}));
