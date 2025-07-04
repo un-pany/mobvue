@@ -230,6 +230,22 @@ bun run test
 
 ![preview](./src/common/assets/images/preview.png)
 
+## 贡献者
+
+在此感谢所有的贡献者！
+
+<a href="https://github.com/un-pany/mobvue/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=un-pany/mobvue">
+</a>
+
+## 公众号
+
+新的尝试，欢迎关注。
+
+<a href="https://mp.weixin.qq.com/s/artNHKubYNRBlsrxD7eXXA">
+  <img src="https://github.com/user-attachments/assets/2bfdaf70-e7f5-4e1b-b43b-8e848925d7cb">
+</a>
+
 ## License
 
 [MIT](./LICENSE) License © 2025-PRESENT [pany](https://github.com/pany-ang)
