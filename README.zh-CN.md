@@ -28,10 +28,10 @@ MobVue 是一个精心制作的移动端 H5 模板，基于 Vue3、Vite、TypeSc
 
 <br>
 
-- 新版 `Visual Studio Code`
+- 新版 `Visual Studio Code` 或者 AI IDE `Cursor` 与 `Trae`
 - 安装 `.vscode/extensions.json` 文件中推荐的插件
-- `node` 20.x 或 22+
-- `pnpm` 9.x 或 10+
+- `node` 20.19+ 或 22.12+
+- `pnpm` 10+
 - `bun` 最新的
 
 </details>

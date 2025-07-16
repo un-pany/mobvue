@@ -28,10 +28,10 @@ MobVue is a well-crafted mobile web app template, built with popular technologie
 
 <br>
 
-- Latest version of `Visual Studio Code`
+- Latest version of `Visual Studio Code` or AI IDE `Cursor` and `Trae`
 - Install the recommended plugins in the `.vscode/extensions.json` file
-- `node` 20.x or 22+
-- `pnpm` 9.x or 10+
+- `node` 20.19+ or 22.12+
+- `pnpm` 10+
 - `bun` latest
 
 </details>

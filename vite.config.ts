@@ -58,6 +58,8 @@ export default defineConfig(({ mode }) => {
     },
     // 构建配置
     build: {
+      // 浏览器兼容性
+      target: "es2015",
       // 自定义底层的 Rollup 打包配置
       rollupOptions: {
         output: {
