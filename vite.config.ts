@@ -88,6 +88,10 @@ export default defineConfig(({ mode }) => {
             // 打包构建时移除所有注释
             legalComments: "none"
           },
+    // 依赖预构建
+    optimizeDeps: {
+      include: ["vant/es/*/style/index"]
+    },
     // CSS 相关配置
     css: {
       // 线程中运行 CSS 预处理器
