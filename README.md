@@ -6,6 +6,7 @@
 [![github release](https://img.shields.io/github/v/release/un-pany/mobvue?style=flat)](https://github.com/un-pany/mobvue/releases)
 [![github stars](https://img.shields.io/github/stars/un-pany/mobvue?style=flat)](https://github.com/un-pany/mobvue/stargazers)
 [![gitee stars](https://gitee.com/un-pany/mobvue/badge/star.svg)](https://gitee.com/un-pany/mobvue/stargazers)
+[![atomgit stars](https://atomgit.com/un-pany/mobvue/star/badge.svg)](https://atomgit.com/un-pany/mobvue/stargazers)
 
 <b>English | <a href="./README.zh-CN.md">中文</a></b>
 
@@ -166,7 +167,7 @@ bun run test
 
 **Backend Management System**: [v3-admin-vite](https://github.com/un-pany/v3-admin-vite)
 
-**Chinese Repository**: [gitee](https://gitee.com/un-pany/mobvue)
+**Chinese Repository**: [gitee](https://gitee.com/un-pany/mobvue), [atomgit](https://atomgit.com/un-pany/mobvue)
 
 **Chat Group**: [check how to join](https://github.com/un-pany/mobvue/issues/3)
 
